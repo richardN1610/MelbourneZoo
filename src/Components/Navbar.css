@@ -1,0 +1,39 @@
+.navbar{
+    height: 100px;
+    background-color: rgba(240, 226, 226, 0.788);
+    font-family: 'Libre Baskerville', serif;
+}
+
+.zoo-logo-title{
+    display: grid;
+    grid-template-columns: 180px 200px;
+    padding-left: 150px;
+}
+
+.i-curved{
+    color: orange;
+    font-style: italic;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.8rem;
+    gap: 3vw;
+    float: right;
+    margin-right: 160px;
+    margin-top: -70px;
+}
+.nav-menu li{
+    list-style-type: none;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: orange;
+    transition: 0.3s ease-in-out;
+}

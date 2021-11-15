@@ -1,0 +1,36 @@
+:root{
+    --primary: #fff;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+    color: darkseagreen;
+    border: 1px solid var(--primary);
+}
+
+.btn-outline{
+    background-color: transparent;
+    color: white;
+    border: 3px solid var(--primary);
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-medium{
+    font-size: 1.1rem;
+}
+
+.btn-large{
+    font-size: 1.5rem;
+}
+.btn-medium:hover, .btn-large:hover{
+    color: orange;
+    transition: all 1s ease-in-out;
+}
