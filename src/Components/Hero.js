@@ -14,9 +14,9 @@ function Hero() {
                 <Button buttonStyle='btn-outline' buttonSize='btn-large'>Learn More</Button>
             </div>
             <div className="open-hrs-wrapper">
-                <i class="far fa-clock"><span className="open-hrs-title">    Opening Hours:</span></i><br /><br />
+                <i className="far fa-clock"><span className="open-hrs-title">    Opening Hours:</span></i><br /><br />
                 <span className="business-hours">9:00 AM - 5:00 PM (Last Entry At 4:00 PM)</span>
-                <Button buttonStyle='btn-outline' buttonSize='btn-large'>Kids Visit Free <i class="fas fa-ticket-alt"></i></Button>
+                <Button buttonStyle='btn-outline' buttonSize='btn-large'>Kids Free Visit<i className="fas fa-ticket-alt"></i></Button>
             </div>
 
         </div>
